@@ -51,13 +51,21 @@ In octave, we have one of two approaches: define the variables q, v, and r, line
 them all on the same line of code.
 
 Line by line:
+
 q=constantChargeElementary
+
 v=[3,4,5]
+
 r=[5,12,13]
 
 To find B, we now just type in the Biot-Savart law:
 
-constantPermeability*(q*cross(v,normalize(r))/norm(r)**2)
+	constantPermeability*(q*cross(v,normalize(r))/norm(r)**2)
+
+In one line:
+
+	
+q=constantChargeElementary;v=[3,4,5];r=[5,12,13];constantPermeability*(q*cross(v,normalize(r))/norm(r)**2)
 
 There are three unfamiliar functions here:
 
