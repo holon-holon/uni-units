@@ -35,11 +35,11 @@ Included so far are a variety of constants, which can be found by typing constan
 hitting tab twice. Alternatively, you can read through phys1001.m to find out the constants and
 functions.
 
-Let's say we wanted to use the Biot-Savart law
+Let's say we wanted to use the Biot-Savart law (as a formula):
 
 	B = (m0/4pi)*(q*vxr-hat/r^2)
 
-and we know what q, v and r are:
+and we know what q, v and r are (for the purpose of this example):
 	
 	q=constantChargeElementary
 	v=[3,4,5]
